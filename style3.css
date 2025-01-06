@@ -1,0 +1,65 @@
+.navbar {
+    position: static; /* Pastikan navbar tidak tetap */
+    background-color: rgb(5, 139, 0); /* Warna latar belakang */
+    padding: 10px 0; /* Padding atas dan bawah */
+    width: 100%; /* Lebar penuh */
+    z-index: 1000; /* Z-index untuk memastikan navbar di atas elemen lain */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important; /* Warna teks */
+}
+.nav-link:hover {
+    color: #ffcc00 !important; /* Warna teks saat hover */
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.tags {
+    margin-bottom: 10px;
+}
+
+/* Custom CSS untuk judul dan garis */
+.package-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 40px 0;
+    position: relative;
+}
+.package-title::before,
+.package-title::after {
+    content: '';
+    display: inline-block;
+    width: 30%;
+    height: 2px;
+    background-color: #333;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: block; /* atau flex, tergantung kebutuhan */
+    }
+}

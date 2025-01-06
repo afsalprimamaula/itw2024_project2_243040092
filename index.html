@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muara Jambu Official</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tambahkan link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min .css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  <!-- AOS -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MUARA JAMBU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="index2.html">Facilities</a></li>
+                            <li><a class="dropdown-item" href="index3.html">Package</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section with Video -->
+    <section id="home" class="py-0 position-relative">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-12">
+                    <video class="w-100" autoplay muted loop>
+                        <source src="img/video home landscape.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kotak Booking -->
+        <div class="booking-overlay">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="property-section">
+                            <div class="property-item">
+                                <label for="property-area">Camping Area</label>
+                                <select id="property-area" class=" form-control">
+                                    <option value="">Select Area</option>
+                                    <option value="area1">Area A</option>
+                                    <option value="area2">Area B</option>
+                                    <option value="area2">Area C</option>
+                                </select>
+                            </div>
+                            <div class="property-item">
+                                <label for="no-of-bedrooms">Amount</label>
+                                <input type="number" id="no-tenda" class="form-control" placeholder="Enter number of bedrooms">
+                            </div>
+                            <div class="property-item">
+                                <label for="ownership-type">Type Tent</label>
+                                <select id="ownership-type" class="form-control">
+                                    <option value="">Family Camp</option>
+                                    <option value="leasehold">Malano Camp</option>
+                                    <option value="freehold">Camp Group</option>
+                                    <option value="freehold">package for 2 people</option>
+                                    <option value="freehold">package for 3 people</option>
+                                    <option value="freehold">package for 4 people</option>
+                                    <option value="freehold">Area Only</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary w-100 mt-3">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="py-5" >
+        <div class="container">
+            <h1 class="text-center mb-4" data-aos="fade-down">About Us</h1>
+            <div class="row">
+                <div class="col-md-12 fs-5">
+                    <p>
+                        <h3>Welcome to Wisata Muara Jambu</h3>
+                        Didirikan pada tahun 2019, Wisata Muara Jambu adalah destinasi wisata alam yang menawarkan pengalaman rekreasi dan petualangan yang tak terlupakan. Berlokasi strategis di Kecamatan Ciater, Kabupaten Subang, Provinsi Jawa Barat, kami hadir untuk memberikan tempat terbaik bagi Anda yang ingin menikmati keindahan alam dengan fasilitas lengkap dan modern.
+                    </p>
+                    <p>
+                        <h5>Visi Kami</h5>
+                        Menjadi destinasi wisata pilihan yang menggabungkan keindahan alam dengan fasilitas modern untuk menciptakan pengalaman tak terlupakan bagi semua pengunjung.
+                    </p>
+                    <p>
+                        <h5>Misi Kami</h5>
+                        Memberikan layanan terbaik dengan fasilitas yang berkualitas. Mendorong wisata berbasis alam yang berkelanjutan dan ramah lingkungan. Menciptakan suasana yang nyaman dan aman bagi pengunjung dari segala usia. Wisata Muara Jambu adalah tempat di mana kenangan indah tercipta. Kami menantikan kunjungan Anda untuk menjelajahi dan menikmati semua yang kami tawarkan!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="container my-5">
+        <h1 class="text-center mb-4" data-aos="fade-down">Gallery Muara Jambu</h1>
+        <div class="row">
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="gallery-item">
+                    <img src="img/pemandangan (1).jpg" alt="Gallery Image 1">
+                    <div class="gallery-caption" style="background-color: rgb(5, 139, 0);">
+                        <a class="text-white">Pemandangan Alam</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="gallery-item">
+                    <img src="img/price list mj (1).jpg" alt="Gallery Image 2">
+                    <div class="gallery-caption" style="background-color: rgb(5, 139, 0);">
+                        <a href="index3.html">
+                        <a class="text-white">Package</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="gallery-item" >
+                    <img src="img/jam kerja mj (1).jpg" alt="Gallery Image 3">
+                    <div class="gallery-caption" style="background-color: rgb(5, 139, 0);">
+                        <a href="index2.html">
+                        <a class="text-white">Fasilitas Penginapan</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tambahkan lebih banyak gallery item di sini -->
+        </div>
+    </section>
+
+    <!-- Location Section -->
+<section id="location" class="py-5">
+    <div class="container">
+        <h1 class="text-center mb-4" data-aos="fade-down">Location</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center mb-4">Recreation & Camp</p>
+                <!-- Google Maps Embed -->
+                <div class="map-container" data-aos="zoom-out">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.232192648475!2d107.67487118885494!3d-6.741506999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6921335eb82d27%3A0xfb0a00e7c1c0eeaf!2sMuara%20Jambu%20Recreation%20%26%20Camp!5e0!3m2!1sen!2sid!4v1736139837416!5m2!1sen!2sid" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <!-- Address Details -->
+                <div class="location-details mt-4 text-center">
+                    <h4>Wisata Muara Jambu</h4>
+                    <p>Kecamatan Ciater, Kabupaten Subang, Jawa Barat, Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Us Section -->
+<section id="contact-us" class="py-5 bg-light">
+    <div class="container">
+        <h1 class="text-center mb-4" data-aos="fade-down">Contact Us</h1>
+        <p class="text-center mb-5">Have questions or need assistance? Feel free to reach out to us!</p>
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <h3 class="card-title text-center mb-4">Send Us a Message</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                      <input type="hidden" name="access_key" value="afb66829-887c-4add-b200-6d765b78bb8f">
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="message" name="message " rows="5" placeholder="Enter your message" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-6 mt-4 mt-md-0" data-aos="flip-up">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4">Our Contact Info</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class='bx bxl-whatsapp fs-1'><span class="fs-4">+62 813-1500-2823</span></i> 
+                            </li>
+                            <li class="mb-3">
+                                <i class='bx bxl-whatsapp fs-1'><span class="fs-4">+62 813-1500-2823</span></i>
+                            </li>
+                            <li class="mb-3">
+                                <i class='bx bxl-whatsapp  fs-1'><span class="fs-4">+62 813-1500-2823</span></i>
+                            </li>
+
+                        </ul>
+                        <hr>
+                        <h5 class="text-center mb-3">Follow Us</h5>
+                        <div class="text-center">
+                            <a href="https://www.tiktok.com/@muarajambuofficial" class="text-decoration-none me-3">
+                                <i class='bx bxl-tiktok fs-1 text-dark' ></i>
+                            </a>
+                            <a href="https://www.instagram.com/muarajambuofficial" class="text-decoration-none">
+                                <i class='bx bxl-instagram  fs-1' style="color: purple;" ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+      e.preventDefault(); // Mencegah form submit default
+      const form = e.target;
+      const formData = new FormData(form);
+  
+      fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          alert('Pesan berhasil dikirim!');
+          form.reset(); // Reset form setelah berhasil
+        } else {
+          alert('Terjadi kesalahan. Silakan coba lagi.');
+        }
+      })
+      .catch(error => {
+        alert('Terjadi kesalahan. Silakan coba lagi.');
+      });
+    });
+  </script>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

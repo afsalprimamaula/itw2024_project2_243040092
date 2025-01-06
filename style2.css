@@ -1,0 +1,39 @@
+.navbar {
+    position: static; /* Pastikan navbar tidak tetap */
+    background-color: rgb(5, 139, 0); /* Warna latar belakang */
+    padding: 10px 0; /* Padding atas dan bawah */
+    width: 100%; /* Lebar penuh */
+    z-index: 1000; /* Z-index untuk memastikan navbar di atas elemen lain */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important; /* Warna teks */
+}
+.nav-link:hover {
+    color: #ffcc00 !important; /* Warna teks saat hover */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+.list-unstyled li {
+    margin-bottom: 10px;
+    color: #555;
+}
+.fas {
+    color: #28a745;
+}
