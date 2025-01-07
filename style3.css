@@ -1,16 +1,16 @@
 .navbar {
-    position: static; /* Pastikan navbar tidak tetap */
-    background-color: rgb(5, 139, 0); /* Warna latar belakang */
-    padding: 10px 0; /* Padding atas dan bawah */
-    width: 100%; /* Lebar penuh */
-    z-index: 1000; /* Z-index untuk memastikan navbar di atas elemen lain */
+    position: static; 
+    background-color: rgb(5, 139, 0); 
+    padding: 10px 0; 
+    width: 100%; 
+    z-index: 1000; 
 }
 
 .navbar-brand, .nav-link {
-    color: white !important; /* Warna teks */
+    color: white !important; 
 }
 .nav-link:hover {
-    color: #ffcc00 !important; /* Warna teks saat hover */
+    color: #ffcc00 !important; 
 }
 
 body {
@@ -60,6 +60,10 @@ body {
 
 @media (max-width: 768px) {
     .navbar {
-        display: block; /* atau flex, tergantung kebutuhan */
+        display: block; 
     }
+}
+
+.fas {
+    color: #28a745;
 }
